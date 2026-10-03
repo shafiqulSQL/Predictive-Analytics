@@ -1,4 +1,4 @@
-# Predictive Analytics: Stock Prediction, Sales Forecasting \& Waiter Tips Regression
+# Predictive Analytics: Stock Prediction, Sales Forecasting & Waiter Tips Regression
 
 Real-life predictive analytics project comparing three model types on three different
 problems: an LSTM neural network for stock price prediction, Holt-Winters Exponential
@@ -22,8 +22,8 @@ Forest — evaluated on a held-out test set.
 * **Deployment:** the best-performing tips model is saved as a single pipeline file
 (preprocessing + model together) and reloaded to predict on new, unseen inputs.
 
-Full results and metrics are in [`outputs/all\_results.json`](outputs/all_results.json) and
-[`outputs/tips\_model\_comparison.csv`](outputs/tips_model_comparison.csv).
+Full results and metrics are in [`outputs/all_results.json`](outputs/all_results.json) and
+[`outputs/tips_model_comparison.csv`](outputs/tips_model_comparison.csv).
 
 ## Repository structure
 
@@ -63,13 +63,13 @@ Full results and metrics are in [`outputs/all\_results.json`](outputs/all_result
 3. (Optional) Regenerate the dataset from scratch:
 
 ```bash
-   python data/generate\_dataset.py
+   python data/generate_dataset.py
    ```
 
 4. Launch Jupyter and open the notebook:
 
 ```bash
-   jupyter lab notebooks/predictive\_analyticst.ipynb
+   jupyter lab notebooks/predictive_analyticst.ipynb
    ```
 
 5. Run all cells top to bottom. Outputs (charts, metrics, the saved pipeline) are written
