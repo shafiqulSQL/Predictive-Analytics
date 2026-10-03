@@ -93,10 +93,10 @@ ticker/store).
 |-|-|-|
 |LSTM (NOVATECH, 20-day window)|RMSE|$3.13|
 |Holt-Winters (Harborview store, 60-day test)|RMSE|59.3 units/day|
-|Waiter tips — Baseline (bill only)|R\\u00b2 / RMSE|0.552 / 0.964|
-|Waiter tips — Linear Regression (all features)|R\\u00b2 / RMSE|0.621 / 0.887|
-|Waiter tips — Ridge Regression|R\\u00b2 / RMSE|0.622 / 0.886|
-|Waiter tips — Random Forest|R\\u00b2 / RMSE|0.524 / 0.994|
+|Waiter tips — Baseline (bill only)|R / RMSE|0.552 / 0.964|
+|Waiter tips — Linear Regression (all features)|R / RMSE|0.621 / 0.887|
+|Waiter tips — Ridge Regression|R / RMSE|0.622 / 0.886|
+|Waiter tips — Random Forest|R / RMSE|0.524 / 0.994|
 
 ## Author
 
